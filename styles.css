@@ -14,12 +14,14 @@ body {
     padding: 48px;
 }
 
-
-
 a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+a:hover {
+    font-weight: bold; 
 }
 
 ul {
@@ -111,8 +113,6 @@ ul {
     align-items: center;
     margin: 70px;
 }
-
-
 
 /* end of quote */ 
 
