@@ -44,12 +44,14 @@ ul {
 
 .awesome {
     background-color: #1F2937;
-     padding: 48px; 
+    padding: 48px; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cat {
-    width: 400px;
-    height: auto;
+   max-width: 100%; 
 }
 
 .button1 {
