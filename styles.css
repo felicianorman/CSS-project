@@ -7,7 +7,7 @@ body {
 /* Start of header */ 
 
 .header {
-    background-color: #1F2937;
+    background-color: #947292;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +21,9 @@ a {
 }
 
 a:hover {
-    font-weight: bold; 
+    /* font-weight: bold;  */
+    background-color: #a785a5;
+    padding: 5px;
 }
 
 ul {
@@ -43,7 +45,7 @@ ul {
 /* Start of top section */ 
 
 .awesome {
-    background-color: #1F2937;
+    background-color: #947292;
     padding: 48px; 
     align-items: center;
     justify-content: center;
@@ -149,25 +151,28 @@ ul {
 /* sign up button */ 
 
 .sign-up {
-    background-color:#3882F6;
+    background-color:#947292;
     font-size: 24px;
     color: #F9FaF8;
     padding: 50px;
-    border: 2px solid #3882F6;
+    border: 2px solid #947292;
     border-radius: 15px;
+    margin:
 }
 
 button {
-    background-color: #3882F6;
+    background-color:#a785a5;
     border: 2px solid white;
     border-radius: 10px;
     color: white;
     padding: 10px;
+    gap: 10px;
 } 
 
 /* start of footer */ 
+
 footer {
-    background-color: #1F2937;
+    background-color: #947292;
     color: #F9FaF8;
     display:flex;
     align-items: center;
