@@ -39,9 +39,6 @@ ul {
     font-size: 24px;
     padding: 10px;
 }
-
-/* End of header */ 
-
 /* Start of top section */ 
 
 .awesome {
@@ -71,6 +68,7 @@ ul {
 .sub-title {
     color: #E5E7EB;
     font-size: 18px;
+    opacity: 0.8;
 }
 
 .media {
@@ -81,8 +79,6 @@ ul {
 .media .piccontent {
     flex: 1;
 } 
-
-/* end of top section */ 
 
 /* Start of middle section */
 .extra {
@@ -116,7 +112,6 @@ ul {
     font-style: italic;
     color: #595e64;
 }
-/* End of middle section */ 
 
 /* Start of quote */ 
 
@@ -135,6 +130,14 @@ ul {
     text-align: center;
 }
 
+.thor {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* sign up button */ 
+
 .content3 {
     background-color: white;
     display: flex;
@@ -143,21 +146,11 @@ ul {
     margin: 70px;
 }
 
-.thor {
-    font-weight: bold;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-/* end of quote */ 
-
-/* sign up button */ 
-
 .sign-up {
     background-color:#887486;
     font-size: 24px;
     color: #F9FaF8;
-    padding: 50px;
+    padding: 20px 40px;
     border: 2px solid #a894a6;
     border-radius: 15px;
 }
@@ -173,7 +166,6 @@ button {
     font-size: 18px;
     font-weight: bold;
 } 
-
 /* start of footer */ 
 
 footer {
