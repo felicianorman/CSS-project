@@ -81,31 +81,55 @@ ul {
 /* end of top section */ 
 
 /* Start of middle section */
-
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* End of middle section */ 
-
-/* Start of quote */ 
-
 .extra {
     font-size: 36px;
     font-weight: bold;
     background-color: white;
     color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.quote {
-    font-size: 36px;
-    color: #1F2937;
-    font-style: italic;
+.cat2 {
+    width: 200px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+}
+
+.text {
+    font-size: 18px;
     font-weight: lighter;
+    font-style: italic;
+    color: #595e64;
+}
+/* End of middle section */ 
+
+/* Start of quote */ 
+
+
+
+ .quote {
     background-color: #E5E7EB;
-    padding: 48px;
+    padding: 30px;
+    color: #1F2937;
+    font-size: 36px;
+} 
+
+.quote-text {
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 60px;
 }
 
 .content3 {
@@ -114,6 +138,12 @@ ul {
     justify-content: center;
     align-items: center;
     margin: 70px;
+}
+
+.thor {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 /* end of quote */ 
