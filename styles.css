@@ -1,7 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 
 /* Start of header */ 
@@ -134,6 +132,7 @@ ul {
     font-family:Arial, Helvetica, sans-serif;
     padding: 40px;
     margin: 60px;
+    text-align: center;
 }
 
 .content3 {
@@ -161,7 +160,6 @@ ul {
     padding: 50px;
     border: 2px solid #a894a6;
     border-radius: 15px;
-    margin:
 }
 
 button {
@@ -171,6 +169,9 @@ button {
     color: white;
     padding: 10px;
     gap: 10px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
 } 
 
 /* start of footer */ 
