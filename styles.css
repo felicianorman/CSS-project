@@ -7,7 +7,7 @@ body {
 /* Start of header */ 
 
 .header {
-    background-color: #947292;
+    background-color: #887486;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,8 +22,10 @@ a {
 
 a:hover {
     /* font-weight: bold;  */
-    background-color: #a785a5;
+    background-color: #a894a6;
     padding: 5px;
+    border: 1px solid #a894a6;
+    border-radius: 10px;
 }
 
 ul {
@@ -45,8 +47,8 @@ ul {
 /* Start of top section */ 
 
 .awesome {
-    background-color: #947292;
-    padding: 48px; 
+    background-color: #887486;
+    padding: 50px; 
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -54,6 +56,8 @@ ul {
 
 .cat {
    max-width: 100%; 
+   border: 1px solid #887486;
+   border-radius: 10px; 
 }
 
 .button1 {
@@ -104,7 +108,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     padding: 60px;
 }
 
@@ -151,18 +155,18 @@ ul {
 /* sign up button */ 
 
 .sign-up {
-    background-color:#947292;
+    background-color:#887486;
     font-size: 24px;
     color: #F9FaF8;
     padding: 50px;
-    border: 2px solid #947292;
+    border: 2px solid #a894a6;
     border-radius: 15px;
     margin:
 }
 
 button {
-    background-color:#a785a5;
-    border: 2px solid white;
+    background-color:#a894a6;
+    border: 2px solid #a894a6;
     border-radius: 10px;
     color: white;
     padding: 10px;
@@ -172,7 +176,7 @@ button {
 /* start of footer */ 
 
 footer {
-    background-color: #947292;
+    background-color: #887486;
     color: #F9FaF8;
     display:flex;
     align-items: center;
