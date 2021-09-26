@@ -3,6 +3,6 @@ CSS Project through The Odin Project
 
 
 
-Picture from shutterstock.com
+Picture from pixabay.com
 
 See live: https://felicianorman.github.io/CSS-project/
